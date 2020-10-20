@@ -38,7 +38,7 @@ reset(){
     render() {
         return (
             <div className="playground">
-			<button onClick={this.reset} className="ballProvider2">Reset</button>
+			<button onClick={this.reset} className="reset">Reset</button>
                 {this.renderChoice()}
             </div>
 			
